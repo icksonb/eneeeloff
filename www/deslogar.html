@@ -1,0 +1,22 @@
+<html>
+<body>
+AGUARDE...
+
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>    
+<script type="text/javascript">
+
+          var token = JSON.parse(sessionStorage.getItem('token'));
+          $.ajax({
+          url: "http://www.eneeel.com/aplicativo/deslogar.php?token=" + token, 
+          type: "GET",
+          crossDomain: true,
+          success: function(data) 
+          {
+                string = "index.html";
+                location.href=string;
+          }
+      });
+
+</script>
+</body>
+</html>

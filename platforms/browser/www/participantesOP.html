@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 1.0
+	Author: GeeksLabs
+	Author URL: http://www.themeforest.net/user/geekslabs
+================================================================================ -->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
+  <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
+  <title>XII ENEEEL</title>
+
+  <!-- Favicons-->
+  <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+  <!-- Favicons-->
+  <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+  <!-- For iPhone -->
+  <meta name="msapplication-TileColor" content="#00bcd4">
+  <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+  <!-- For Windows Phone -->
+
+
+  <!-- CORE CSS-->
+  
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+
+
+  <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
+  <link href="css/prism.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="js/plugins/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="js/plugins/chartist-js/chartist.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+
+
+</head>
+
+<body>
+  <!-- Start Page Loading -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>        
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- End Page Loading -->
+
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+  <!-- START HEADER -->
+  <header id="header" class="page-topbar">
+        <!-- start header nav-->
+        <div class="navbar-fixed">
+            <nav class="cyan">
+                <div class="nav-wrapper">
+                            <h1 class="logo-wrapper"><a href="index.html" class="brand-logo darken-1"><img src="images/logo1.png" alt="materialize logo"></a> 
+                            </h1>
+                    <ul>
+                        <!--APENAS PARA A PÁGINA INICIAL
+                        <li class="right">    
+                            <i class="mdi-action-highlight-remove"></i></a>                         
+                        </li>
+                        -->
+                        <!--PARA AS DEMAIS PÁGINAS-->
+                        <li>    
+                            <a href="participantes.html"><i class="mdi-navigation-chevron-left"></i></a>                         
+                        </li>
+                        <li class="right">    
+                            <a href="inicial.html"><i class="mdi-action-home"></i></a>                         
+                        </li>
+                        
+                        
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- end header nav-->
+  </header>
+  <!-- END HEADER -->
+
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+  <!-- START MAIN -->
+  <div id="main">
+    <!-- START WRAPPER -->
+    <div class="wrapper">
+
+      
+      <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+      <!-- START CONTENT -->
+      <section id="content">
+
+        
+
+
+        <!--start container-->
+        <div class="container">
+            <div class="section">
+
+                <div class="col s12 m4 l4">
+                  <h4 class="header">INFORMAÇÕES - PARTICIPANTES</h4>
+                  <div id="profile-card" class="card">
+                    <div class="card-content">
+                      
+                          <span class="card-title activator grey-text text-darken-4" id="nome"> ---</span>
+                          <p id="email"><i class="mdi-communication-email"></i> ---</p>
+                          <p id="cpf"><i class="mdi-action-aspect-ratio"></i> ---</p>
+                          <p id="pacote"><i class="mdi-maps-local-atm"></i> ---</p>
+                          <p id="quarto"><i class="mdi-maps-local-hotel"></i> ---</p>
+                          <p id="camisa"><i class="mdi-action-wallet-travel"></i> ---</p>
+                          <p id="sandalia"><i class="mdi-action-wallet-travel"></i> ---</p>
+                          <p id="checkinT">---</p>
+                            <a id="checkin" class="btn-floating activator btn-move-up waves-effect waves-light teal right">
+                              <i class="mdi-action-done"></i>
+                            </a>
+                    </div>
+                    
+                  </div>
+                </div>
+
+
+         
+            </div>
+            <!--card stats end-->
+        </div>
+           
+
+
+
+      </section>
+    </div>
+    <!-- END WRAPPER -->
+    
+  </div>
+  <!-- END MAIN -->
+
+
+
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+  
+
+
+     <!-- ================================================
+    Scripts
+    ================================================ -->
+    
+    <!-- jQuery Library -->
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>    
+    <!--materialize js-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/jquery.autocomplete.js"></script>
+    
+    <!--scrollbar-->
+    <script type="text/javascript" src="js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    
+    <!-- chartist -->
+    <script type="text/javascript" src="js/plugins/chartist-js/chartist.min.js"></script>   
+    
+    <!-- chartjs -->
+    <script type="text/javascript" src="js/plugins/chartjs/chart.min.js"></script>
+    <script type="text/javascript" src="js/plugins/chartjs/participantes.js"></script>
+
+
+    <!--plugins.js - Some Specific JS codes for Plugin Settings-->
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="csv/email.js"></script>
+    <script type="text/javascript" src="csv/nome.js"></script>
+
+	<script type="text/javascript">
+    	
+          var hashes;
+          hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&') + '';
+          email = hashes.split('=');
+          email = email[1];
+          if(email == "")
+          {
+          	string = "participantes.html";
+          	location.href = string;
+          }
+          $.ajax({
+			url: "http://www.eneeel.com/aplicativo/checkin.php?email=" + email + "&id=1", 
+			type: "POST",
+			//headers: {'X-Requested-With': 'XMLHttpRequest'},
+			crossDomain: true,
+        	//dataType: 'jsonp',
+			success: function(data) 
+			{
+				console.log(data);
+				if(data != "")
+				{
+					$('#checkinT').replaceWith("Checkin realizado por: " + data);
+					$('#checkin').remove();
+				}
+			}
+		});
+      
+    </script>
+
+    <script type="text/javascript">
+    	$("#checkin").click(function(){
+          var hashes;
+          hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&') + '';
+          email = hashes.split('=');
+          email = email[1];
+
+          $.ajax({
+			url: "http://www.eneeel.com/aplicativo/checkin.php?email=" + email, 
+			type: "POST",
+			//headers: {'X-Requested-With': 'XMLHttpRequest'},
+			crossDomain: true,
+        	//dataType: 'jsonp',
+			success: function(data) 
+			{
+				location.reload();
+			}
+		});
+      });
+    </script>
+	<!--Função para enviar os dados-->
+    <script type="text/javascript">
+              var hash;
+              var hashes;
+              hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&') + '';
+              email = hashes.split('=');
+              email = email[1];
+              var busca = arrEmail.indexOf(email);
+              var resultado = arrNome[busca];
+              arrR = resultado.split(',');
+
+              string = "<span class='card-title activator grey-text text-darken-4' id='nome'>" + arrR[0] + "</span></p>";
+              $('#nome').replaceWith(string);
+
+              string = "<p id='email'><i class='mdi-communication-email'></i> " + email + "</p>";
+              $('#email').replaceWith(string);
+              
+              string = "<p id='pacote'><i class='mdi-maps-local-atm'></i> " + arrR[1] + "</p>";
+              $('#pacote').replaceWith(string);
+
+              string = "<p id='quarto'><i class='mdi-maps-local-hotel'></i> " + arrR[2] + "</p>";
+              $('#quarto').replaceWith(string);
+
+              string = "<p id='cpf'><i class='mdi-action-aspect-ratio'></i> CPF:" + arrR[3] + "</p>";
+              $('#cpf').replaceWith(string);
+
+              string = "<p id='camisa'><i class='mdi-action-wallet-travel'></i> Camisa: " + arrR[4] + "</p>";
+              $('#camisa').replaceWith(string);
+
+			  string = "<p id='camisa'><i class='mdi-action-wallet-travel'></i> Sandália: " + arrR[5] + "</p>";
+              $('#sandalia').replaceWith(string);                        
+                          
+
+
+
+              
+              
+    </script>
+</body>
+
+</html>
